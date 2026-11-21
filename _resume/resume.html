@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Jaxson Montague — Resume</title>
+<style>
+@font-face{font-family:"Shippori Mincho B1";font-weight:500;src:url(shippori-mincho-b1-latin-500-normal.woff2) format("woff2")}
+@font-face{font-family:"Shippori Mincho B1";font-weight:800;src:url(shippori-mincho-b1-latin-800-normal.woff2) format("woff2")}
+@page{size:Letter;margin:0}
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--ink:#111;--muted:#7d7d7d;--label:150px}
+html,body{background:#fff}
+body{font-family:"fot-matisse-pron","Shippori Mincho B1",serif;font-weight:500;color:var(--ink);font-size:9.6pt;line-height:1.5;-webkit-font-smoothing:antialiased}
+.page{width:8.5in;height:11in;padding:0.62in 0.7in 0.6in}
+a{color:inherit;text-decoration:none}
+
+/* header */
+.top{display:grid;grid-template-columns:var(--label) 1fr;align-items:start;margin-bottom:34px}
+.mark{font-weight:800;font-size:30pt;line-height:.9;letter-spacing:-.03em}
+.name{font-weight:800;font-size:13pt;letter-spacing:.02em;text-transform:uppercase;line-height:1.2}
+.role{margin-top:3px}
+.contact{margin-top:8px;color:var(--muted)}
+.contact span+span::before{content:"·";margin:0 7px;color:#b5b5b5}
+
+/* sections */
+section{margin-bottom:24px}
+h2{font-weight:800;font-size:10pt;letter-spacing:.02em;text-transform:uppercase;margin-bottom:10px;padding-left:var(--label)}
+.row{display:grid;grid-template-columns:var(--label) 1fr;margin-bottom:12px}
+.row:last-child{margin-bottom:0}
+.when{color:var(--muted);text-transform:lowercase;padding-top:1px}
+.org{font-weight:800}
+.org .where{font-weight:500;color:var(--muted)}
+.title{margin-top:1px}
+ul{list-style:none;margin-top:5px}
+li{position:relative;padding-left:12px;margin-bottom:3px}
+li::before{content:"–";position:absolute;left:0;color:var(--muted)}
+.muted{color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="top">
+    <div class="mark">[-]</div>
+    <div>
+      <div class="name">Jaxson Montague</div>
+      <div class="role">3D Animator · Character Animation</div>
+      <div class="contact">
+        <span><a href="https://jaxsonmontague.com">jaxsonmontague.com</a></span><span><a href="mailto:jaxson@sent.com">jaxson@sent.com</a></span><span><a href="https://www.instagram.com/jaxsonmon/">@jaxsonmon</a></span><span>Savannah, Georgia</span>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <h2>Education</h2>
+    <div class="row">
+      <div class="when">sep 2026 – present</div>
+      <div>
+        <div class="org">Savannah College of Art &amp; Design <span class="where">— Savannah, GA</span></div>
+        <ul><li>3D Animation</li></ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Software</h2>
+    <div class="row">
+      <div class="when"></div>
+      <div>Blender, Maya, After Effects, Premiere Pro, Photoshop, Illustrator</div>
+    </div>
+  </section>
+
+
+  <section>
+    <h2>Experience</h2>
+    <div class="row">
+      <div class="when">aug 2023 – present</div>
+      <div>
+        <div class="org">1Stop Install LLC <span class="where">— Miami, FL</span></div>
+        <div class="title">Data Research &amp; Documentation</div>
+        <ul>
+          <li>Research and identify potential customers across the United States.</li>
+          <li>Build field-definition reference libraries and analyze automation workflows in the company’s Zoho-based CRM.</li>
+          <li>Turn screen recordings into step-by-step help articles with annotated screenshots for the company website.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="when">jul 2025 – aug 2025</div>
+      <div>
+        <div class="org">Florida Home 360 <span class="where">— Miami, FL</span></div>
+        <div class="title">Accounting Intern</div>
+        <ul>
+          <li>Assisted with bookkeeping and financial records for residential construction projects.</li>
+          <li>Processed invoices, receipts and expense documentation.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
